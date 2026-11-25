@@ -17,15 +17,15 @@
 import Link from "next/link";
 import VerdictBar from "@/components/VerdictBar";
 import SegmentRow from "@/components/SegmentRow";
-import EventsList from "@/components/EventsList";
 import CameraStrip from "@/components/CameraStrip";
-import WeatherStrip from "@/components/WeatherStrip";
+import RoadConditionsCheck from "@/components/RoadConditionsCheck";
+import WeatherBlock from "@/components/WeatherBlock";
 import FaqBlock from "@/components/FaqBlock";
 import StormAlerts from "@/components/StormAlerts";
 import AdSlot from "@/components/AdSlot";
 import JsonLd from "@/components/JsonLd";
 import { getCorridor } from "@/lib/feeds";
-import { getPointWeather } from "@/lib/weather";
+import { getBlockWeather } from "@/lib/weather";
 import { SEGMENTS } from "@/lib/segments";
 import { camerasForSegment, CAMERA_COUNT } from "@/lib/cameras";
 import { corridorStatusSentence } from "@/lib/verdict";
@@ -50,12 +50,11 @@ const WEATHER_POINTS = [
 ];
 
 export default async function HomePage() {
-  const [corridor, weather] = await Promise.all([getCorridor(), getPointWeather(WEATHER_POINTS)]);
+  const [corridor, weather] = await Promise.all([getCorridor(), getBlockWeather(WEATHER_POINTS)]);
   const segments = SEGMENTS.map((s) => corridor.segments[s.key]);
   const combined = { ...corridor.combined, name: "North Carolina Line to Hillsville", statusLine: corridor.combined.statusWord === "STATUS UNAVAILABLE" ? segments[0].statusLine : `Interstate 77, North Carolina line to Hillsville: ${corridor.combined.statusWord.toLowerCase()} based on the worst segment right now.` };
   const sentence = corridorStatusSentence(corridor, segments);
   const climbCameras = camerasForSegment(2);
-  const topCameras = camerasForSegment(3);
 
   const faqs = [
     {
@@ -107,17 +106,9 @@ export default async function HomePage() {
       <CameraStrip
         cameras={climbCameras}
         priorityFirst
-        heading="I-77 webcams, the Fancy Gap climb"
-        sub="VDOT cameras on the steepest miles, in driving order. On this mountain the camera is the fog report. Still images from 511 Virginia, credited to VDOT."
-        seeAllHref="/segments/lambsburg-to-fancy-gap/cameras"
-        emptyText="No cameras are listed for this part of the corridor yet. The verdict above comes from the VDOT event feed and does not depend on the cameras."
-      />
-
-      <CameraStrip
-        cameras={topCameras}
-        heading="I-77 webcams, Fancy Gap to Hillsville"
-        sub="VDOT cameras across the top of the Blue Ridge, in driving order. Still images from 511 Virginia, credited to VDOT."
-        seeAllHref="/segments/fancy-gap-to-hillsville/cameras"
+        heading="Live Webcams"
+        sub="VDOT cameras on the Fancy Gap climb, the steepest miles, in driving order. On this mountain the camera is the fog report. Still images from 511 Virginia, credited to VDOT."
+        seeAllHref="/cameras"
         emptyText="No cameras are listed for this part of the corridor yet. The verdict above comes from the VDOT event feed and does not depend on the cameras."
       />
 
@@ -136,6 +127,8 @@ export default async function HomePage() {
         </div>
       </section>
 
+      <RoadConditionsCheck corridor={corridor} />
+
       <section aria-label="Restrictions and advisories on I-77" className="mt-10">
         <h2 className="text-headline-sm text-on-surface mb-2">Restrictions and advisories on I-77</h2>
         <p className="text-body-md text-secondary leading-relaxed">
@@ -146,25 +139,6 @@ export default async function HomePage() {
           when a crash or a storm shuts the mountain. Read the{" "}
           <Link href="/restrictions" className="text-primary font-semibold hover:underline">restrictions and winter traction page</Link>{" "}
           before a trip to learn how to read each posting.
-        </p>
-      </section>
-
-      <section aria-label="VDOT events on I-77" className="mt-10">
-        <h2 className="text-headline-sm text-on-surface mb-3">Closures, restrictions, and events on I-77</h2>
-        <EventsList
-          events={corridor.combined.events}
-          emptyText={
-            corridor.ok
-              ? "VDOT posts no events on Interstate 77 on this corridor right now. The road is running clear from the state line to Hillsville. Fog can still form faster than any posting, so read the cameras before the climb."
-              : "No VDOT events can be shown right now, because the live feed is not answering. Nothing is posted here in the meantime, and the verdict above says STATUS UNAVAILABLE rather than guessing."
-          }
-        />
-        <p className="text-sm text-secondary mt-3">
-          Full detail on the{" "}
-          <Link href="/alerts" className="text-primary font-semibold hover:underline">alerts and closures page</Link>,
-          including message signs when VDOT is posting to them. For shutdowns specifically, see
-          the{" "}
-          <Link href="/shutdown" className="text-primary font-semibold hover:underline">I-77 shutdown and closures page</Link>.
         </p>
       </section>
 
@@ -184,7 +158,7 @@ export default async function HomePage() {
         </section>
       )}
 
-      <WeatherStrip points={weather} />
+      <WeatherBlock towns={weather} />
 
       <div className="mt-10">
         <StormAlerts />
