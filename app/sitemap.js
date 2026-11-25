@@ -15,6 +15,7 @@ const STATIC_PATHS = [
   "/fancy-gap",
   "/mount-airy-to-hillsville",
   "/compare",
+  "/chains",
   "/restrictions",
   "/shutdown",
   "/cameras",
@@ -42,12 +43,6 @@ export default function sitemap() {
       lastModified: now,
       changeFrequency: "hourly",
       priority: 0.9,
-    });
-    entries.push({
-      url: `${SITE.baseUrl}/segments/${seg.slug}/cameras`,
-      lastModified: now,
-      changeFrequency: "daily",
-      priority: 0.7,
     });
   }
   for (const town of TOWNS) {
