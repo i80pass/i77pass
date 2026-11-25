@@ -62,3 +62,23 @@ Named exceptions to the master pattern, all ruled or inherent:
 - Storm alerts: subscribe route ships in the family pattern
   (Resend, General segment fallback); the live test signup runs
   after deploy, once RESEND_API_KEY is on the app.
+
+## Gold Standard parity pass, Nov 25, 2026
+
+Against the deviation audit at ~/workspace/i77pass/gold-standard-audit-2026-11-25.md
+(all 14 items; results appended to that file):
+
+- The two named exceptions from the launch build are RETIRED.
+  /chains now exists in the master's page pattern, carrying
+  Virginia's honest position (no chain control program; live
+  restrictions and advisories instead), and the top nav and
+  bottom bar fourth item read "Chain Control" at /chains,
+  exactly as the master. /restrictions remains as the guide
+  page behind it.
+- The verdict read is hardened: feed reads retry with backoff
+  (3 attempts, 20 second timeout) and failed reads are cached
+  for only 30 seconds, so a transient upstream failure can no
+  longer bake STATUS UNAVAILABLE into rendered pages.
+- Per segment cameras pages are retired; SEE ALL WEBCAMS points
+  to /cameras everywhere, and /cameras is rebuilt to the master
+  layout (one grid, guidance block, no FAQ).
