@@ -23,7 +23,7 @@ function activeFor(pathname) {
   if (pathname === "/" || pathname === "/i-77") return "i-77";
   if (pathname === "/fancy-gap") return "fancy-gap";
   for (const s of SEGMENTS) {
-    if (pathname === `/segments/${s.slug}` || pathname === `/segments/${s.slug}/cameras`) return s.slug;
+    if (pathname === `/segments/${s.slug}`) return s.slug;
   }
   if (pathname === "/mount-airy-to-hillsville") return "i-77";
   return null;
