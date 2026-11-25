@@ -1,0 +1,1058 @@
+[
+ {
+  "registryId": 3581,
+  "slug": "i77-mm0-1-cam",
+  "name": "I-77 at Milepost 0.1",
+  "location": "I-77 at Milepost 0.1",
+  "roadway": "I-77",
+  "milepost": 0.1,
+  "nearestMilepostMarker": 0.1,
+  "markerDistanceMiles": null,
+  "direction": null,
+  "latitude": 36.56279,
+  "longitude": -80.744933,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77MM01.flv.png",
+  "videoUrl": "https://media-sfs5.vdotcameras.com/rtplive/SalemI77MM01/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 1,
+  "segmentSlug": "state-line-to-lambsburg",
+  "segmentName": "North Carolina Line to Lambsburg",
+  "elevationFt": null,
+  "nearestTown": "Lambsburg",
+  "nearestTownMiles": 0.9,
+  "index": 1,
+  "prevSlug": null,
+  "nextSlug": "i77-mm0-6-nb",
+  "prevName": null,
+  "nextName": "I-77 at Milepost 0.6, Northbound",
+  "prevMiles": null,
+  "nextMiles": 0.5,
+  "caption": "I-77 at Milepost 0.1 webcam on Interstate 77, near milepost marker 0.1, North Carolina Line to Lambsburg segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 0.1 camera is camera 1 of 22 on this corridor's registry snapshot, standing on the North Carolina Line to Lambsburg segment of Interstate 77, near milepost marker 0.1. The nearest town is Lambsburg, about 0.9 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 0.1 camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 0.1 on Interstate 77, on the North Carolina Line to Lambsburg segment near milepost marker 0.1. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "This is the southernmost camera in the snapshot, at the foot of the climb. North (toward Hillsville) is the I-77 at Milepost 0.6, Northbound camera, linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 2195,
+  "slug": "i77-mm0-6-nb",
+  "name": "I-77 at Milepost 0.6, Northbound",
+  "location": "I-77 at Milepost 0.6, Northbound",
+  "roadway": "I-77",
+  "milepost": 0.6,
+  "nearestMilepostMarker": 0.6,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.572251,
+  "longitude": -80.743743,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77N006.flv.png",
+  "videoUrl": "https://media-sfs1.vdotcameras.com/rtplive/SalemI77N006/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 1,
+  "segmentSlug": "state-line-to-lambsburg",
+  "segmentName": "North Carolina Line to Lambsburg",
+  "elevationFt": null,
+  "nearestTown": "Lambsburg",
+  "nearestTownMiles": 0.4,
+  "index": 2,
+  "prevSlug": "i77-mm0-1-cam",
+  "nextSlug": "i77-mm1-9-nb",
+  "prevName": "I-77 at Milepost 0.1",
+  "nextName": "I-77 at Milepost 1.9, Northbound",
+  "prevMiles": 0.5,
+  "nextMiles": 1.3,
+  "caption": "I-77 at Milepost 0.6, Northbound webcam on Interstate 77, near milepost marker 0.6, North Carolina Line to Lambsburg segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 0.6, Northbound camera is camera 2 of 22 on this corridor's registry snapshot, standing on the North Carolina Line to Lambsburg segment of Interstate 77, near milepost marker 0.6. The nearest town is Lambsburg, about 0.4 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 0.6, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 0.6, Northbound on Interstate 77, on the North Carolina Line to Lambsburg segment near milepost marker 0.6. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 0.1 camera. North (toward Hillsville) is the I-77 at Milepost 1.9, Northbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 2053,
+  "slug": "i77-mm1-9-nb",
+  "name": "I-77 at Milepost 1.9, Northbound",
+  "location": "I-77 at Milepost 1.9, Northbound",
+  "roadway": "I-77",
+  "milepost": 1.9,
+  "nearestMilepostMarker": 1.9,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.58843,
+  "longitude": -80.74195,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77M0019.flv.png",
+  "videoUrl": "https://media-sfs3.vdotcameras.com/rtplive/SalemI77M0019/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 1,
+  "segmentSlug": "state-line-to-lambsburg",
+  "segmentName": "North Carolina Line to Lambsburg",
+  "elevationFt": null,
+  "nearestTown": "Lambsburg",
+  "nearestTownMiles": 0.9,
+  "index": 3,
+  "prevSlug": "i77-mm0-6-nb",
+  "nextSlug": "i77-mm2-7-median",
+  "prevName": "I-77 at Milepost 0.6, Northbound",
+  "nextName": "I-77 at Milepost 2.7, Median",
+  "prevMiles": 1.3,
+  "nextMiles": 0.8,
+  "caption": "I-77 at Milepost 1.9, Northbound webcam on Interstate 77, near milepost marker 1.9, North Carolina Line to Lambsburg segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 1.9, Northbound camera is camera 3 of 22 on this corridor's registry snapshot, standing on the North Carolina Line to Lambsburg segment of Interstate 77, near milepost marker 1.9. The nearest town is Lambsburg, about 0.9 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 1.9, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 1.9, Northbound on Interstate 77, on the North Carolina Line to Lambsburg segment near milepost marker 1.9. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 0.6, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 2.7, Median camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 774,
+  "slug": "i77-mm2-7-median",
+  "name": "I-77 at Milepost 2.7, Median",
+  "location": "I-77 at Milepost 2.7, Median",
+  "roadway": "I-77",
+  "milepost": 2.7,
+  "nearestMilepostMarker": 2.7,
+  "markerDistanceMiles": null,
+  "direction": "Median",
+  "latitude": 36.599702,
+  "longitude": -80.739584,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77M0027.flv.png",
+  "videoUrl": "https://media-sfs4.vdotcameras.com/rtplive/SalemI77M0027/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 1,
+  "segmentSlug": "state-line-to-lambsburg",
+  "segmentName": "North Carolina Line to Lambsburg",
+  "elevationFt": null,
+  "nearestTown": "Lambsburg",
+  "nearestTownMiles": 1.7,
+  "index": 4,
+  "prevSlug": "i77-mm1-9-nb",
+  "nextSlug": "i77-mm3-3-nb",
+  "prevName": "I-77 at Milepost 1.9, Northbound",
+  "nextName": "I-77 at Milepost 3.3, Northbound",
+  "prevMiles": 0.8,
+  "nextMiles": 0.6,
+  "caption": "I-77 at Milepost 2.7, Median webcam on Interstate 77, near milepost marker 2.7, North Carolina Line to Lambsburg segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 2.7, Median camera is camera 4 of 22 on this corridor's registry snapshot, standing on the North Carolina Line to Lambsburg segment of Interstate 77, near milepost marker 2.7. The nearest town is Lambsburg, about 1.7 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 2.7, Median camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 2.7, Median on Interstate 77, on the North Carolina Line to Lambsburg segment near milepost marker 2.7. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 1.9, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 3.3, Northbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 632,
+  "slug": "i77-mm3-3-nb",
+  "name": "I-77 at Milepost 3.3, Northbound",
+  "location": "I-77 at Milepost 3.3, Northbound",
+  "roadway": "I-77",
+  "milepost": 3.3,
+  "nearestMilepostMarker": 3.3,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.606365,
+  "longitude": -80.736014,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77N0033.flv.png",
+  "videoUrl": "https://media-sfs8.vdotcameras.com/rtplive/SalemI77N0033/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 1,
+  "segmentSlug": "state-line-to-lambsburg",
+  "segmentName": "North Carolina Line to Lambsburg",
+  "elevationFt": null,
+  "nearestTown": "Lambsburg",
+  "nearestTownMiles": 2.3,
+  "index": 5,
+  "prevSlug": "i77-mm2-7-median",
+  "nextSlug": "i77-mm3-4-sb",
+  "prevName": "I-77 at Milepost 2.7, Median",
+  "nextName": "I-77 at Milepost 3.4, Southbound",
+  "prevMiles": 0.6,
+  "nextMiles": 0.1,
+  "caption": "I-77 at Milepost 3.3, Northbound webcam on Interstate 77, near milepost marker 3.3, North Carolina Line to Lambsburg segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 3.3, Northbound camera is camera 5 of 22 on this corridor's registry snapshot, standing on the North Carolina Line to Lambsburg segment of Interstate 77, near milepost marker 3.3. The nearest town is Lambsburg, about 2.3 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 3.3, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 3.3, Northbound on Interstate 77, on the North Carolina Line to Lambsburg segment near milepost marker 3.3. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 2.7, Median camera. North (toward Hillsville) is the I-77 at Milepost 3.4, Southbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 2196,
+  "slug": "i77-mm3-4-sb",
+  "name": "I-77 at Milepost 3.4, Southbound",
+  "location": "I-77 at Milepost 3.4, Southbound",
+  "roadway": "I-77",
+  "milepost": 3.4,
+  "nearestMilepostMarker": 3.4,
+  "markerDistanceMiles": null,
+  "direction": "Southbound",
+  "latitude": 36.608019,
+  "longitude": -80.737601,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77S0034.flv.png",
+  "videoUrl": "https://media-sfs1.vdotcameras.com/rtplive/SalemI77S0034/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 1,
+  "segmentSlug": "state-line-to-lambsburg",
+  "segmentName": "North Carolina Line to Lambsburg",
+  "elevationFt": null,
+  "nearestTown": "Lambsburg",
+  "nearestTownMiles": 2.4,
+  "index": 6,
+  "prevSlug": "i77-mm3-3-nb",
+  "nextSlug": "i77-mm4-3-sb",
+  "prevName": "I-77 at Milepost 3.3, Northbound",
+  "nextName": "I-77 at Milepost 4.3, Southbound",
+  "prevMiles": 0.1,
+  "nextMiles": 0.9,
+  "caption": "I-77 at Milepost 3.4, Southbound webcam on Interstate 77, near milepost marker 3.4, North Carolina Line to Lambsburg segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 3.4, Southbound camera is camera 6 of 22 on this corridor's registry snapshot, standing on the North Carolina Line to Lambsburg segment of Interstate 77, near milepost marker 3.4. The nearest town is Lambsburg, about 2.4 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 3.4, Southbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 3.4, Southbound on Interstate 77, on the North Carolina Line to Lambsburg segment near milepost marker 3.4. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 3.3, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 4.3, Southbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 1058,
+  "slug": "i77-mm4-3-sb",
+  "name": "I-77 at Milepost 4.3, Southbound",
+  "location": "I-77 at Milepost 4.3, Southbound",
+  "roadway": "I-77",
+  "milepost": 4.3,
+  "nearestMilepostMarker": 4.3,
+  "markerDistanceMiles": null,
+  "direction": "Southbound",
+  "latitude": 36.620726,
+  "longitude": -80.738166,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77S0043.flv.png",
+  "videoUrl": "https://media-sfs5.vdotcameras.com/rtplive/SalemI77S0043/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 1,
+  "segmentSlug": "state-line-to-lambsburg",
+  "segmentName": "North Carolina Line to Lambsburg",
+  "elevationFt": null,
+  "nearestTown": "Lambsburg",
+  "nearestTownMiles": 3.3,
+  "index": 7,
+  "prevSlug": "i77-mm3-4-sb",
+  "nextSlug": "i77-mm4-9-nb",
+  "prevName": "I-77 at Milepost 3.4, Southbound",
+  "nextName": "I-77 at Milepost 4.9, Northbound",
+  "prevMiles": 0.9,
+  "nextMiles": 0.6,
+  "caption": "I-77 at Milepost 4.3, Southbound webcam on Interstate 77, near milepost marker 4.3, North Carolina Line to Lambsburg segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 4.3, Southbound camera is camera 7 of 22 on this corridor's registry snapshot, standing on the North Carolina Line to Lambsburg segment of Interstate 77, near milepost marker 4.3. The nearest town is Lambsburg, about 3.3 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 4.3, Southbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 4.3, Southbound on Interstate 77, on the North Carolina Line to Lambsburg segment near milepost marker 4.3. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 3.4, Southbound camera. North (toward Hillsville) is the I-77 at Milepost 4.9, Northbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 3583,
+  "slug": "i77-mm4-9-nb",
+  "name": "I-77 at Milepost 4.9, Northbound",
+  "location": "I-77 at Milepost 4.9, Northbound",
+  "roadway": "I-77",
+  "milepost": 4.9,
+  "nearestMilepostMarker": 4.9,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.626013,
+  "longitude": -80.729146,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77MM49.flv.png",
+  "videoUrl": "https://media-sfs5.vdotcameras.com/rtplive/SalemI77MM49/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 2,
+  "segmentSlug": "lambsburg-to-fancy-gap",
+  "segmentName": "Lambsburg to Fancy Gap",
+  "elevationFt": null,
+  "nearestTown": "Fancy Gap",
+  "nearestTownMiles": 3.1,
+  "index": 8,
+  "prevSlug": "i77-mm4-3-sb",
+  "nextSlug": "i77-mm5-3-sb",
+  "prevName": "I-77 at Milepost 4.3, Southbound",
+  "nextName": "I-77 at Milepost 5.3, Southbound",
+  "prevMiles": 0.6,
+  "nextMiles": 0.4,
+  "caption": "I-77 at Milepost 4.9, Northbound webcam on Interstate 77, near milepost marker 4.9, Lambsburg to Fancy Gap segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 4.9, Northbound camera is camera 8 of 22 on this corridor's registry snapshot, standing on the Lambsburg to Fancy Gap segment of Interstate 77, near milepost marker 4.9. The nearest town is Fancy Gap, about 3.1 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 4.9, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 4.9, Northbound on Interstate 77, on the Lambsburg to Fancy Gap segment near milepost marker 4.9. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 4.3, Southbound camera. North (toward Hillsville) is the I-77 at Milepost 5.3, Southbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 675,
+  "slug": "i77-mm5-3-sb",
+  "name": "I-77 at Milepost 5.3, Southbound",
+  "location": "I-77 at Milepost 5.3, Southbound",
+  "roadway": "I-77",
+  "milepost": 5.3,
+  "nearestMilepostMarker": 5.3,
+  "markerDistanceMiles": null,
+  "direction": "Southbound",
+  "latitude": 36.63166,
+  "longitude": -80.726465,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77S0053.flv.png",
+  "videoUrl": "https://media-sfs8.vdotcameras.com/rtplive/SalemI77S0053/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 2,
+  "segmentSlug": "lambsburg-to-fancy-gap",
+  "segmentName": "Lambsburg to Fancy Gap",
+  "elevationFt": null,
+  "nearestTown": "Fancy Gap",
+  "nearestTownMiles": 2.7,
+  "index": 9,
+  "prevSlug": "i77-mm4-9-nb",
+  "nextSlug": "i77-mm5-7-nb",
+  "prevName": "I-77 at Milepost 4.9, Northbound",
+  "nextName": "I-77 at Milepost 5.7, Northbound",
+  "prevMiles": 0.4,
+  "nextMiles": 0.4,
+  "caption": "I-77 at Milepost 5.3, Southbound webcam on Interstate 77, near milepost marker 5.3, Lambsburg to Fancy Gap segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 5.3, Southbound camera is camera 9 of 22 on this corridor's registry snapshot, standing on the Lambsburg to Fancy Gap segment of Interstate 77, near milepost marker 5.3. The nearest town is Fancy Gap, about 2.7 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 5.3, Southbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 5.3, Southbound on Interstate 77, on the Lambsburg to Fancy Gap segment near milepost marker 5.3. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 4.9, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 5.7, Northbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 960,
+  "slug": "i77-mm5-7-nb",
+  "name": "I-77 at Milepost 5.7, Northbound",
+  "location": "I-77 at Milepost 5.7, Northbound",
+  "roadway": "I-77",
+  "milepost": 5.7,
+  "nearestMilepostMarker": 5.7,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.634697,
+  "longitude": -80.720405,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77N0057.flv.png",
+  "videoUrl": "https://media-sfs7.vdotcameras.com/rtplive/SalemI77N0057/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 2,
+  "segmentSlug": "lambsburg-to-fancy-gap",
+  "segmentName": "Lambsburg to Fancy Gap",
+  "elevationFt": null,
+  "nearestTown": "Fancy Gap",
+  "nearestTownMiles": 2.3,
+  "index": 10,
+  "prevSlug": "i77-mm5-3-sb",
+  "nextSlug": "i77-mm6-2-sb",
+  "prevName": "I-77 at Milepost 5.3, Southbound",
+  "nextName": "I-77 at Milepost 6.2, Southbound",
+  "prevMiles": 0.4,
+  "nextMiles": 0.5,
+  "caption": "I-77 at Milepost 5.7, Northbound webcam on Interstate 77, near milepost marker 5.7, Lambsburg to Fancy Gap segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 5.7, Northbound camera is camera 10 of 22 on this corridor's registry snapshot, standing on the Lambsburg to Fancy Gap segment of Interstate 77, near milepost marker 5.7. The nearest town is Fancy Gap, about 2.3 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 5.7, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 5.7, Northbound on Interstate 77, on the Lambsburg to Fancy Gap segment near milepost marker 5.7. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 5.3, Southbound camera. North (toward Hillsville) is the I-77 at Milepost 6.2, Southbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 3616,
+  "slug": "i77-mm6-2-sb",
+  "name": "I-77 at Milepost 6.2, Southbound",
+  "location": "I-77 at Milepost 6.2, Southbound",
+  "roadway": "I-77",
+  "milepost": 6.2,
+  "nearestMilepostMarker": 6.2,
+  "markerDistanceMiles": null,
+  "direction": "Southbound",
+  "latitude": 36.641653,
+  "longitude": -80.716052,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77MM62.flv.png",
+  "videoUrl": "https://media-sfs6.vdotcameras.com/rtplive/SalemI77MM62/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 2,
+  "segmentSlug": "lambsburg-to-fancy-gap",
+  "segmentName": "Lambsburg to Fancy Gap",
+  "elevationFt": null,
+  "nearestTown": "Fancy Gap",
+  "nearestTownMiles": 1.8,
+  "index": 11,
+  "prevSlug": "i77-mm5-7-nb",
+  "nextSlug": "i77-mm6-6-nb",
+  "prevName": "I-77 at Milepost 5.7, Northbound",
+  "nextName": "I-77 at Milepost 6.6, Northbound",
+  "prevMiles": 0.5,
+  "nextMiles": 0.4,
+  "caption": "I-77 at Milepost 6.2, Southbound webcam on Interstate 77, near milepost marker 6.2, Lambsburg to Fancy Gap segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 6.2, Southbound camera is camera 11 of 22 on this corridor's registry snapshot, standing on the Lambsburg to Fancy Gap segment of Interstate 77, near milepost marker 6.2. The nearest town is Fancy Gap, about 1.8 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 6.2, Southbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 6.2, Southbound on Interstate 77, on the Lambsburg to Fancy Gap segment near milepost marker 6.2. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 5.7, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 6.6, Northbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 676,
+  "slug": "i77-mm6-6-nb",
+  "name": "I-77 at Milepost 6.6, Northbound",
+  "location": "I-77 at Milepost 6.6, Northbound",
+  "roadway": "I-77",
+  "milepost": 6.6,
+  "nearestMilepostMarker": 6.6,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.6446,
+  "longitude": -80.71044,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77N0066.flv.png",
+  "videoUrl": "https://media-sfs8.vdotcameras.com/rtplive/SalemI77N0066/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 2,
+  "segmentSlug": "lambsburg-to-fancy-gap",
+  "segmentName": "Lambsburg to Fancy Gap",
+  "elevationFt": null,
+  "nearestTown": "Fancy Gap",
+  "nearestTownMiles": 1.4,
+  "index": 12,
+  "prevSlug": "i77-mm6-2-sb",
+  "nextSlug": "i77-mm7-5-nb",
+  "prevName": "I-77 at Milepost 6.2, Southbound",
+  "nextName": "I-77 at Milepost 7.5, Northbound",
+  "prevMiles": 0.4,
+  "nextMiles": 0.9,
+  "caption": "I-77 at Milepost 6.6, Northbound webcam on Interstate 77, near milepost marker 6.6, Lambsburg to Fancy Gap segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 6.6, Northbound camera is camera 12 of 22 on this corridor's registry snapshot, standing on the Lambsburg to Fancy Gap segment of Interstate 77, near milepost marker 6.6. The nearest town is Fancy Gap, about 1.4 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 6.6, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 6.6, Northbound on Interstate 77, on the Lambsburg to Fancy Gap segment near milepost marker 6.6. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 6.2, Southbound camera. North (toward Hillsville) is the I-77 at Milepost 7.5, Northbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 2240,
+  "slug": "i77-mm7-5-nb",
+  "name": "I-77 at Milepost 7.5, Northbound",
+  "location": "I-77 at Milepost 7.5, Northbound",
+  "roadway": "I-77",
+  "milepost": 7.5,
+  "nearestMilepostMarker": 7.5,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.655978,
+  "longitude": -80.705397,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77N0075.flv.png",
+  "videoUrl": "https://media-sfs1.vdotcameras.com/rtplive/SalemI77N0075/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 2,
+  "segmentSlug": "lambsburg-to-fancy-gap",
+  "segmentName": "Lambsburg to Fancy Gap",
+  "elevationFt": null,
+  "nearestTown": "Fancy Gap",
+  "nearestTownMiles": 0.5,
+  "index": 13,
+  "prevSlug": "i77-mm6-6-nb",
+  "nextSlug": "i77-mm8-7-nb",
+  "prevName": "I-77 at Milepost 6.6, Northbound",
+  "nextName": "I-77 at Milepost 8.7, Northbound",
+  "prevMiles": 0.9,
+  "nextMiles": 1.2,
+  "caption": "I-77 at Milepost 7.5, Northbound webcam on Interstate 77, near milepost marker 7.5, Lambsburg to Fancy Gap segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 7.5, Northbound camera is camera 13 of 22 on this corridor's registry snapshot, standing on the Lambsburg to Fancy Gap segment of Interstate 77, near milepost marker 7.5. The nearest town is Fancy Gap, about 0.5 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 7.5, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 7.5, Northbound on Interstate 77, on the Lambsburg to Fancy Gap segment near milepost marker 7.5. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 6.6, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 8.7, Northbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 2239,
+  "slug": "i77-mm8-7-nb",
+  "name": "I-77 at Milepost 8.7, Northbound",
+  "location": "I-77 at Milepost 8.7, Northbound",
+  "roadway": "I-77",
+  "milepost": 8.7,
+  "nearestMilepostMarker": 8.7,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.674018,
+  "longitude": -80.709311,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77N0087.flv.png",
+  "videoUrl": "https://media-sfs1.vdotcameras.com/rtplive/SalemI77N0087/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 2,
+  "segmentSlug": "lambsburg-to-fancy-gap",
+  "segmentName": "Lambsburg to Fancy Gap",
+  "elevationFt": null,
+  "nearestTown": "Fancy Gap",
+  "nearestTownMiles": 0.7,
+  "index": 14,
+  "prevSlug": "i77-mm7-5-nb",
+  "nextSlug": "i77-mm9-7-sb",
+  "prevName": "I-77 at Milepost 7.5, Northbound",
+  "nextName": "I-77 at Milepost 9.7, Southbound",
+  "prevMiles": 1.2,
+  "nextMiles": 1,
+  "caption": "I-77 at Milepost 8.7, Northbound webcam on Interstate 77, near milepost marker 8.7, Lambsburg to Fancy Gap segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 8.7, Northbound camera is camera 14 of 22 on this corridor's registry snapshot, standing on the Lambsburg to Fancy Gap segment of Interstate 77, near milepost marker 8.7. The nearest town is Fancy Gap, about 0.7 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 8.7, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 8.7, Northbound on Interstate 77, on the Lambsburg to Fancy Gap segment near milepost marker 8.7. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 7.5, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 9.7, Southbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 3540,
+  "slug": "i77-mm9-7-sb",
+  "name": "I-77 at Milepost 9.7, Southbound",
+  "location": "I-77 at Milepost 9.7, Southbound",
+  "roadway": "I-77",
+  "milepost": 9.7,
+  "nearestMilepostMarker": 9.7,
+  "markerDistanceMiles": null,
+  "direction": "Southbound",
+  "latitude": 36.684118,
+  "longitude": -80.720013,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77MM97.flv.png",
+  "videoUrl": "https://media-sfs4.vdotcameras.com/rtplive/SalemI77MM97/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 3,
+  "segmentSlug": "fancy-gap-to-hillsville",
+  "segmentName": "Fancy Gap to Hillsville",
+  "elevationFt": null,
+  "nearestTown": "Fancy Gap",
+  "nearestTownMiles": 1.7,
+  "index": 15,
+  "prevSlug": "i77-mm8-7-nb",
+  "nextSlug": "i77-mm10-2-sb",
+  "prevName": "I-77 at Milepost 8.7, Northbound",
+  "nextName": "I-77 at Milepost 10.2, Southbound",
+  "prevMiles": 1,
+  "nextMiles": 0.5,
+  "caption": "I-77 at Milepost 9.7, Southbound webcam on Interstate 77, near milepost marker 9.7, Fancy Gap to Hillsville segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 9.7, Southbound camera is camera 15 of 22 on this corridor's registry snapshot, standing on the Fancy Gap to Hillsville segment of Interstate 77, near milepost marker 9.7. The nearest town is Fancy Gap, about 1.7 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 9.7, Southbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 9.7, Southbound on Interstate 77, on the Fancy Gap to Hillsville segment near milepost marker 9.7. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 8.7, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 10.2, Southbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 3614,
+  "slug": "i77-mm10-2-sb",
+  "name": "I-77 at Milepost 10.2, Southbound",
+  "location": "I-77 at Milepost 10.2, Southbound",
+  "roadway": "I-77",
+  "milepost": 10.2,
+  "nearestMilepostMarker": 10.2,
+  "markerDistanceMiles": null,
+  "direction": "Southbound",
+  "latitude": 36.689347,
+  "longitude": -80.727275,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77MM102.flv.png",
+  "videoUrl": "https://media-sfs6.vdotcameras.com/rtplive/SalemI77MM102/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 3,
+  "segmentSlug": "fancy-gap-to-hillsville",
+  "segmentName": "Fancy Gap to Hillsville",
+  "elevationFt": null,
+  "nearestTown": "Fancy Gap",
+  "nearestTownMiles": 2.2,
+  "index": 16,
+  "prevSlug": "i77-mm9-7-sb",
+  "nextSlug": "i77-mm11-1-sb",
+  "prevName": "I-77 at Milepost 9.7, Southbound",
+  "nextName": "I-77 at Milepost 11.1, Southbound",
+  "prevMiles": 0.5,
+  "nextMiles": 0.9,
+  "caption": "I-77 at Milepost 10.2, Southbound webcam on Interstate 77, near milepost marker 10.2, Fancy Gap to Hillsville segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 10.2, Southbound camera is camera 16 of 22 on this corridor's registry snapshot, standing on the Fancy Gap to Hillsville segment of Interstate 77, near milepost marker 10.2. The nearest town is Fancy Gap, about 2.2 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 10.2, Southbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 10.2, Southbound on Interstate 77, on the Fancy Gap to Hillsville segment near milepost marker 10.2. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 9.7, Southbound camera. North (toward Hillsville) is the I-77 at Milepost 11.1, Southbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 1102,
+  "slug": "i77-mm11-1-sb",
+  "name": "I-77 at Milepost 11.1, Southbound",
+  "location": "I-77 at Milepost 11.1, Southbound",
+  "roadway": "I-77",
+  "milepost": 11.1,
+  "nearestMilepostMarker": 11.1,
+  "markerDistanceMiles": null,
+  "direction": "Southbound",
+  "latitude": 36.69868,
+  "longitude": -80.738609,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77S0111.flv.png",
+  "videoUrl": "https://media-sfs5.vdotcameras.com/rtplive/SalemI77S0111/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 3,
+  "segmentSlug": "fancy-gap-to-hillsville",
+  "segmentName": "Fancy Gap to Hillsville",
+  "elevationFt": null,
+  "nearestTown": "Hillsville",
+  "nearestTownMiles": 2.9,
+  "index": 17,
+  "prevSlug": "i77-mm10-2-sb",
+  "nextSlug": "i77-mm12-nb",
+  "prevName": "I-77 at Milepost 10.2, Southbound",
+  "nextName": "I-77 at Milepost 12, Northbound",
+  "prevMiles": 0.9,
+  "nextMiles": 0.9,
+  "caption": "I-77 at Milepost 11.1, Southbound webcam on Interstate 77, near milepost marker 11.1, Fancy Gap to Hillsville segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 11.1, Southbound camera is camera 17 of 22 on this corridor's registry snapshot, standing on the Fancy Gap to Hillsville segment of Interstate 77, near milepost marker 11.1. The nearest town is Hillsville, about 2.9 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 11.1, Southbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 11.1, Southbound on Interstate 77, on the Fancy Gap to Hillsville segment near milepost marker 11.1. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 10.2, Southbound camera. North (toward Hillsville) is the I-77 at Milepost 12, Northbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 3538,
+  "slug": "i77-mm12-nb",
+  "name": "I-77 at Milepost 12, Northbound",
+  "location": "I-77 at Milepost 12, Northbound",
+  "roadway": "I-77",
+  "milepost": 12,
+  "nearestMilepostMarker": 12,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.711578,
+  "longitude": -80.743081,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77MM120.flv.png",
+  "videoUrl": "https://media-sfs4.vdotcameras.com/rtplive/SalemI77MM120/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 3,
+  "segmentSlug": "fancy-gap-to-hillsville",
+  "segmentName": "Fancy Gap to Hillsville",
+  "elevationFt": null,
+  "nearestTown": "Hillsville",
+  "nearestTownMiles": 2,
+  "index": 18,
+  "prevSlug": "i77-mm11-1-sb",
+  "nextSlug": "i77-mm12-6-nb",
+  "prevName": "I-77 at Milepost 11.1, Southbound",
+  "nextName": "I-77 at Milepost 12.6, Northbound",
+  "prevMiles": 0.9,
+  "nextMiles": 0.6,
+  "caption": "I-77 at Milepost 12, Northbound webcam on Interstate 77, near milepost marker 12, Fancy Gap to Hillsville segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 12, Northbound camera is camera 18 of 22 on this corridor's registry snapshot, standing on the Fancy Gap to Hillsville segment of Interstate 77, near milepost marker 12. The nearest town is Hillsville, about 2 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 12, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 12, Northbound on Interstate 77, on the Fancy Gap to Hillsville segment near milepost marker 12. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 11.1, Southbound camera. North (toward Hillsville) is the I-77 at Milepost 12.6, Northbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 3582,
+  "slug": "i77-mm12-6-nb",
+  "name": "I-77 at Milepost 12.6, Northbound",
+  "location": "I-77 at Milepost 12.6, Northbound",
+  "roadway": "I-77",
+  "milepost": 12.6,
+  "nearestMilepostMarker": 12.6,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.719038,
+  "longitude": -80.745789,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77MM126.flv.png",
+  "videoUrl": "https://media-sfs5.vdotcameras.com/rtplive/SalemI77MM126/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 3,
+  "segmentSlug": "fancy-gap-to-hillsville",
+  "segmentName": "Fancy Gap to Hillsville",
+  "elevationFt": null,
+  "nearestTown": "Hillsville",
+  "nearestTownMiles": 1.4,
+  "index": 19,
+  "prevSlug": "i77-mm12-nb",
+  "nextSlug": "i77-mm13-2-nb",
+  "prevName": "I-77 at Milepost 12, Northbound",
+  "nextName": "I-77 at Milepost 13.2, Northbound",
+  "prevMiles": 0.6,
+  "nextMiles": 0.6,
+  "caption": "I-77 at Milepost 12.6, Northbound webcam on Interstate 77, near milepost marker 12.6, Fancy Gap to Hillsville segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 12.6, Northbound camera is camera 19 of 22 on this corridor's registry snapshot, standing on the Fancy Gap to Hillsville segment of Interstate 77, near milepost marker 12.6. The nearest town is Hillsville, about 1.4 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 12.6, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 12.6, Northbound on Interstate 77, on the Fancy Gap to Hillsville segment near milepost marker 12.6. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 12, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 13.2, Northbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 3615,
+  "slug": "i77-mm13-2-nb",
+  "name": "I-77 at Milepost 13.2, Northbound",
+  "location": "I-77 at Milepost 13.2, Northbound",
+  "roadway": "I-77",
+  "milepost": 13.2,
+  "nearestMilepostMarker": 13.2,
+  "markerDistanceMiles": null,
+  "direction": "Northbound",
+  "latitude": 36.727029,
+  "longitude": -80.752738,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77MM132.flv.png",
+  "videoUrl": "https://media-sfs6.vdotcameras.com/rtplive/SalemI77MM132/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 3,
+  "segmentSlug": "fancy-gap-to-hillsville",
+  "segmentName": "Fancy Gap to Hillsville",
+  "elevationFt": null,
+  "nearestTown": "Hillsville",
+  "nearestTownMiles": 0.8,
+  "index": 20,
+  "prevSlug": "i77-mm12-6-nb",
+  "nextSlug": "i77-mm13-7-sb",
+  "prevName": "I-77 at Milepost 12.6, Northbound",
+  "nextName": "I-77 at Milepost 13.7, Southbound",
+  "prevMiles": 0.6,
+  "nextMiles": 0.5,
+  "caption": "I-77 at Milepost 13.2, Northbound webcam on Interstate 77, near milepost marker 13.2, Fancy Gap to Hillsville segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 13.2, Northbound camera is camera 20 of 22 on this corridor's registry snapshot, standing on the Fancy Gap to Hillsville segment of Interstate 77, near milepost marker 13.2. The nearest town is Hillsville, about 0.8 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 13.2, Northbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 13.2, Northbound on Interstate 77, on the Fancy Gap to Hillsville segment near milepost marker 13.2. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 12.6, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 13.7, Southbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 1955,
+  "slug": "i77-mm13-7-sb",
+  "name": "I-77 at Milepost 13.7, Southbound",
+  "location": "I-77 at Milepost 13.7, Southbound",
+  "roadway": "I-77",
+  "milepost": 13.7,
+  "nearestMilepostMarker": 13.7,
+  "markerDistanceMiles": null,
+  "direction": "Southbound",
+  "latitude": 36.730647,
+  "longitude": -80.760762,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77S0137.flv.png",
+  "videoUrl": "https://media-sfs6.vdotcameras.com/rtplive/SalemI77S0137/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 3,
+  "segmentSlug": "fancy-gap-to-hillsville",
+  "segmentName": "Fancy Gap to Hillsville",
+  "elevationFt": null,
+  "nearestTown": "Hillsville",
+  "nearestTownMiles": 0.3,
+  "index": 21,
+  "prevSlug": "i77-mm13-2-nb",
+  "nextSlug": "i77-mm15-sb",
+  "prevName": "I-77 at Milepost 13.2, Northbound",
+  "nextName": "I-77 at Milepost 15, Southbound",
+  "prevMiles": 0.5,
+  "nextMiles": 1.3,
+  "caption": "I-77 at Milepost 13.7, Southbound webcam on Interstate 77, near milepost marker 13.7, Fancy Gap to Hillsville segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 13.7, Southbound camera is camera 21 of 22 on this corridor's registry snapshot, standing on the Fancy Gap to Hillsville segment of Interstate 77, near milepost marker 13.7. The nearest town is Hillsville, about 0.3 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 13.7, Southbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 13.7, Southbound on Interstate 77, on the Fancy Gap to Hillsville segment near milepost marker 13.7. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "South (toward the North Carolina line) is the I-77 at Milepost 13.2, Northbound camera. North (toward Hillsville) is the I-77 at Milepost 15, Southbound camera. Both are linked at the bottom of this page."
+   }
+  ]
+ },
+ {
+  "registryId": 3539,
+  "slug": "i77-mm15-sb",
+  "name": "I-77 at Milepost 15, Southbound",
+  "location": "I-77 at Milepost 15, Southbound",
+  "roadway": "I-77",
+  "milepost": 15,
+  "nearestMilepostMarker": 15,
+  "markerDistanceMiles": null,
+  "direction": "Southbound",
+  "latitude": 36.74541,
+  "longitude": -80.772296,
+  "imageUrl": "https://snapshot.vdotcameras.com/thumbs/SalemI77MM150.flv.png",
+  "videoUrl": "https://media-sfs4.vdotcameras.com/rtplive/SalemI77MM150/playlist.m3u8",
+  "source": "VDOT",
+  "segment": 3,
+  "segmentSlug": "fancy-gap-to-hillsville",
+  "segmentName": "Fancy Gap to Hillsville",
+  "elevationFt": null,
+  "nearestTown": "Hillsville",
+  "nearestTownMiles": 1,
+  "index": 22,
+  "prevSlug": "i77-mm13-7-sb",
+  "nextSlug": null,
+  "prevName": "I-77 at Milepost 13.7, Southbound",
+  "nextName": null,
+  "prevMiles": 1.3,
+  "nextMiles": null,
+  "caption": "I-77 at Milepost 15, Southbound webcam on Interstate 77, near milepost marker 15, Fancy Gap to Hillsville segment. Still image from VDOT via 511 Virginia.",
+  "about": [
+   "The I-77 at Milepost 15, Southbound camera is camera 22 of 22 on this corridor's registry snapshot, standing on the Fancy Gap to Hillsville segment of Interstate 77, near milepost marker 15. The nearest town is Hillsville, about 1 miles away by milepost. The still above is published by the Virginia Department of Transportation through 511 Virginia and is served live from the agency feed on every view; this site hot links it with credit and never stores or rehosts camera image files.",
+   "Read this frame together with the segment status banner on this page. On this mountain the camera is the fog report: if the frame is white or grey, visibility on the climb is gone at this milepost whatever the forecast said. The banner carries the segment's live verdict from the state event feed, which is the word on closures and restrictions."
+  ],
+  "faqs": [
+   {
+    "q": "What does the I-77 at Milepost 15, Southbound camera show?",
+    "a": "The current VDOT via 511 Virginia still at I-77 at Milepost 15, Southbound on Interstate 77, on the Fancy Gap to Hillsville segment near milepost marker 15. Most corridor cameras also stream live video on 511 Virginia; this page carries the still, refreshed by the agency."
+   },
+   {
+    "q": "Is this camera image live?",
+    "a": "It is the agency's current published still, served from the agency feed on every view. Refresh timing is the agency's; on Fancy Gap, read the frame for fog first, then read the segment verdict, which comes from the live event feed."
+   },
+   {
+    "q": "Where are the cameras on either side of this one?",
+    "a": "This is the northernmost camera in the snapshot. South (toward the North Carolina line) is the I-77 at Milepost 13.7, Southbound camera, linked at the bottom of this page."
+   }
+  ]
+ }
+]
