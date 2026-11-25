@@ -98,7 +98,20 @@ export default async function RoutePage() {
       <div className="mt-4">
         <VerdictBar seg={combined} fetchedAt={corridor.fetchedAt} label="Mount Airy to Hillsville current status" />
       </div>
-      <p className="answer-first text-lg md:text-xl font-semibold leading-snug mt-5">{sentence}</p>
+
+      {/* The first segment's cameras sit directly under the verdict
+          bar (the master's hard rule: no text between the status
+          block and the first camera). The same strip is skipped
+          in the per segment loop below. */}
+      <CameraStrip
+        cameras={camerasForSegment(1)}
+        heading={`Cameras: ${SEGMENTS[0].name}`}
+        sub={camerasForSegment(1).length ? `${camerasForSegment(1).length} VDOT ${camerasForSegment(1).length === 1 ? "camera" : "cameras"} on this part of the drive.` : undefined}
+        seeAllHref="/cameras"
+        emptyText="No cameras are listed on this part of the drive yet. The verdict above, from the VDOT event feed, is the live picture here."
+      />
+
+      <p className="answer-first text-lg md:text-xl font-semibold leading-snug mt-10">{sentence}</p>
 
       <section aria-label="Live status for every segment" className="mt-10">
         <h2 className="text-headline-sm text-on-surface mb-3">Live status, segment by segment</h2>
@@ -125,13 +138,15 @@ export default async function RoutePage() {
               <p className="text-body-md text-secondary leading-relaxed mt-2">{DRIVE_NOTES[meta.key]}</p>
               <p className="text-body-md text-secondary leading-relaxed mt-2">{meta.sections[0].body}</p>
             </section>
-            <CameraStrip
-              cameras={cams}
-              heading={`Cameras: ${meta.name}`}
-              sub={cams.length ? `${cams.length} VDOT ${cams.length === 1 ? "camera" : "cameras"} on this part of the drive.` : undefined}
-              seeAllHref="/cameras"
-              emptyText="No cameras are listed on this part of the drive yet. The segment status row above, from the VDOT event feed, is the live picture here."
-            />
+            {meta.key !== 1 && (
+              <CameraStrip
+                cameras={cams}
+                heading={`Cameras: ${meta.name}`}
+                sub={cams.length ? `${cams.length} VDOT ${cams.length === 1 ? "camera" : "cameras"} on this part of the drive.` : undefined}
+                seeAllHref="/cameras"
+                emptyText="No cameras are listed on this part of the drive yet. The segment status row above, from the VDOT event feed, is the live picture here."
+              />
+            )}
           </div>
         );
       })}
