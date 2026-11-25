@@ -129,7 +129,7 @@ export default async function RoutePage() {
               cameras={cams}
               heading={`Cameras: ${meta.name}`}
               sub={cams.length ? `${cams.length} VDOT ${cams.length === 1 ? "camera" : "cameras"} on this part of the drive.` : undefined}
-              seeAllHref={`/segments/${meta.slug}/cameras`}
+              seeAllHref="/cameras"
               emptyText="No cameras are listed on this part of the drive yet. The segment status row above, from the VDOT event feed, is the live picture here."
             />
           </div>
