@@ -68,7 +68,7 @@ export default function SiteMapPage() {
             <li key={s.key}>
               <Link href={`/segments/${s.slug}`} className="font-semibold text-primary hover:underline">{s.name}</Link>
               {" · "}
-              <Link href={`/segments/${s.slug}/cameras`} className="text-primary hover:underline">cameras</Link>
+              <Link href="/cameras" className="text-primary hover:underline">cameras</Link>
               {" · "}
               <Link href={`/widget/${s.slug}`} className="text-primary hover:underline">widget</Link>
             </li>
