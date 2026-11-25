@@ -52,6 +52,36 @@ export default async function LiveFeedPage() {
   };
   const sentence = corridorStatusSentence(corridor, segments);
 
+  // One segment's feed section. The first segment's cameras sit
+  // directly under the verdict bar (the master's hard rule: no
+  // text between the status block and the first camera); the
+  // status sentence and the feed intro follow that first grid.
+  const feedSection = (meta) => {
+    const cams = camerasForSegment(meta.key);
+    if (!cams.length) {
+      return (
+        <section key={meta.key} aria-label={`Feed, ${meta.name}`} className="mt-10">
+          <h2 className="text-headline-sm text-on-surface mb-3">{meta.name}</h2>
+          <p className="text-body-md text-secondary leading-relaxed rounded-2xl border border-outline-variant/40 bg-white p-5">
+            No cameras listed on this segment yet. Its live status is the segment row on the homepage, built from the VDOT event feed.
+          </p>
+        </section>
+      );
+    }
+    return (
+      <section key={meta.key} aria-label={`Feed, ${meta.name}`} className="mt-10">
+        <h2 className="text-headline-sm text-on-surface mb-3">
+          {meta.name} <span className="text-secondary text-base font-semibold">({cams.length})</span>
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {cams.map((cam) => (
+            <CameraCard key={cam.slug} cam={cam} />
+          ))}
+        </div>
+      </section>
+    );
+  };
+
   return (
     <main className="max-w-5xl mx-auto px-4 md:px-6 pb-16">
       <JsonLd
@@ -75,36 +105,15 @@ export default async function LiveFeedPage() {
       <div className="mt-4">
         <VerdictBar seg={combined} fetchedAt={corridor.fetchedAt} label="Interstate 77 current status" />
       </div>
-      <p className="answer-first text-lg md:text-xl font-semibold leading-snug mt-5">{sentence}</p>
+
+      {feedSection(SEGMENTS[0])}
+
+      <p className="answer-first text-lg md:text-xl font-semibold leading-snug mt-10">{sentence}</p>
       <p className="text-body-md text-secondary leading-relaxed mt-3">
         {CAMERA_COUNT ? `${CAMERA_COUNT} VDOT stills in driving order, grouped by segment. The climb run is the dense part, because the climb is where the weather happens.` : "VDOT stills in driving order, grouped by segment. The climb run is the dense part, because the climb is where the weather happens."}
       </p>
 
-      {SEGMENTS.map((meta) => {
-        const cams = camerasForSegment(meta.key);
-        if (!cams.length) {
-          return (
-            <section key={meta.key} aria-label={`Feed, ${meta.name}`} className="mt-10">
-              <h2 className="text-headline-sm text-on-surface mb-3">{meta.name}</h2>
-              <p className="text-body-md text-secondary leading-relaxed rounded-2xl border border-outline-variant/40 bg-white p-5">
-                No cameras listed on this segment yet. Its live status is the segment row on the homepage, built from the VDOT event feed.
-              </p>
-            </section>
-          );
-        }
-        return (
-          <section key={meta.key} aria-label={`Feed, ${meta.name}`} className="mt-10">
-            <h2 className="text-headline-sm text-on-surface mb-3">
-              {meta.name} <span className="text-secondary text-base font-semibold">({cams.length})</span>
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {cams.map((cam) => (
-                <CameraCard key={cam.slug} cam={cam} />
-              ))}
-            </div>
-          </section>
-        );
-      })}
+      {SEGMENTS.slice(1).map(feedSection)}
 
       <FaqBlock faqs={FAQS} />
 
