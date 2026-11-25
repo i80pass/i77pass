@@ -79,10 +79,10 @@ export default async function ShutdownPage() {
       <h1 className="text-display-lg-mobile md:text-display-lg text-on-surface pt-6">
         I-77 Shutdown and Closures Today
       </h1>
+      <p className="speakable-status text-body-md text-secondary leading-relaxed mt-4">{sentence}</p>
       <div className="mt-4">
         <VerdictBar seg={climb} fetchedAt={corridor.fetchedAt} label="The Fancy Gap climb current status" />
       </div>
-      <p className="answer-first text-lg md:text-xl font-semibold leading-snug mt-5">{sentence}</p>
 
       <section aria-label="Closure events right now" className="mt-10">
         <h2 className="text-headline-sm text-on-surface mb-3">Closures posted right now</h2>
