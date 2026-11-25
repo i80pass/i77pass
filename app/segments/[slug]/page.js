@@ -1,12 +1,13 @@
 // One page per I-77 segment, each its own mini site in the
 // master's corridor page pattern, in the master's block order:
-// H1, the verdict box, the answer first status sentence, the
-// segment's cameras under the camera count rule, the corridor
-// status list with this segment's events folded into it, the
-// Road Conditions checker, the weather block, storm alerts,
-// original editorial sections, checkpoints and junctions, and
-// FAQs with FAQPage schema. dynamicParams is false: an unknown
-// segment slug is a real 404.
+// H1, the verdict box, then the segment's cameras directly
+// under the verdict with nothing between them (the master's
+// hard rule), then the answer first status sentence and intro,
+// the corridor status list with this segment's events folded
+// into it, the Road Conditions checker, the weather block,
+// storm alerts, original editorial sections, checkpoints and
+// junctions, and FAQs with FAQPage schema. dynamicParams is
+// false: an unknown segment slug is a real 404.
 
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -104,9 +105,6 @@ export default async function SegmentPage({ params }) {
       <div className="mt-4">
         <VerdictBar seg={seg} fetchedAt={corridor.fetchedAt} />
       </div>
-      <p className="answer-first text-lg md:text-xl font-semibold leading-snug mt-5">{sentence}</p>
-      <p className="text-body-md text-secondary leading-relaxed mt-3">{meta.intro}</p>
-
       <CameraStrip
         cameras={cameras}
         heading={`I-77 webcams, ${meta.name}`}
@@ -118,6 +116,9 @@ export default async function SegmentPage({ params }) {
         seeAllHref="/cameras"
         emptyText="No cameras are listed on this segment yet. The camera inventory for this corridor is pulled from the 511 Virginia registry. This page will never dress up another segment's camera as one of its own."
       />
+
+      <p className="answer-first text-lg md:text-xl font-semibold leading-snug mt-10">{sentence}</p>
+      <p className="text-body-md text-secondary leading-relaxed mt-3">{meta.intro}</p>
 
       <AdSlot slot="belowCameras" />
 
