@@ -106,7 +106,6 @@ export default async function CameraPage({ params }) {
       <div className="mt-4">
         <VerdictBar seg={seg} fetchedAt={corridor.fetchedAt} label={`${cam.segmentName} current status`} />
       </div>
-      <p className="answer-first text-lg md:text-xl font-semibold leading-snug mt-5">{sentence}</p>
 
       <figure className="mt-6 rounded-2xl overflow-hidden border border-outline-variant/40 bg-white shadow-sm">
         {cameraSrc(cam) ? (
@@ -127,6 +126,8 @@ export default async function CameraPage({ params }) {
         )}
         <figcaption className="px-4 py-3 text-sm text-secondary">{cam.caption}</figcaption>
       </figure>
+
+      <p className="answer-first text-lg md:text-xl font-semibold leading-snug mt-6">{sentence}</p>
 
       <section aria-label="Camera facts" className="mt-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
