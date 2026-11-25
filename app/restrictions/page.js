@@ -1,13 +1,13 @@
-// Restrictions and winter traction page: the page that sits in
-// the slot the master reserves for chain controls. NAMED
-// EXCEPTION, logged in BUILD-LOG.md: Virginia has no chain
-// control system, no chain laws, no chain tiers, and no traction
-// checkpoints, so the slot carries the corridor's restrictions
-// and winter traction rules in the state's own language instead.
-// The copy states the no chains fact plainly, explains how VDOT
-// posting works (variable speed limits, fog and wind advisories,
-// winter advisories and restrictions), and reports truck rules
-// as published by the state, never inventing limits of its own.
+// Restrictions and winter traction page: the guide page behind
+// the /chains page, which carries the master's chain control
+// slot for this corridor. Virginia has no chain control system,
+// no chain laws, no chain tiers, and no traction checkpoints,
+// so this page carries the corridor's restrictions and winter
+// traction rules in the state's own language. The copy states
+// the no chains fact plainly, explains how VDOT posting works
+// (variable speed limits, fog and wind advisories, winter
+// advisories and restrictions), and reports truck rules as
+// published by the state, never inventing limits of its own.
 
 import Link from "next/link";
 import VerdictBar from "@/components/VerdictBar";
@@ -17,6 +17,7 @@ import StormAlerts from "@/components/StormAlerts";
 import JsonLd from "@/components/JsonLd";
 import { getCorridor } from "@/lib/feeds";
 import { SEGMENTS } from "@/lib/segments";
+import { corridorStatusSentence } from "@/lib/verdict";
 import { webPageSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
 import { siteUrl } from "@/lib/site-config";
 
@@ -57,6 +58,7 @@ export default async function RestrictionsPage() {
   const corridor = await getCorridor();
   const climb = corridor.segments[2];
   const segments = SEGMENTS.map((s) => corridor.segments[s.key]);
+  const sentence = corridorStatusSentence(corridor, segments);
 
   return (
     <main className="max-w-5xl mx-auto px-4 md:px-6 pb-16">
@@ -73,6 +75,7 @@ export default async function RestrictionsPage() {
       <h1 className="text-display-lg-mobile md:text-display-lg text-on-surface pt-6">
         Restrictions and Winter Traction on I-77
       </h1>
+      <p className="speakable-status text-body-md text-secondary leading-relaxed mt-4">{sentence}</p>
       <div className="mt-4">
         <VerdictBar seg={climb} fetchedAt={corridor.fetchedAt} label="The Fancy Gap climb current status" />
       </div>
