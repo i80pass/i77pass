@@ -23,7 +23,7 @@ function HeaderContent() {
         <Link href="/" className="flex items-center shrink-0" aria-label="i77pass.com home">
           <Image
             src="/i77pass-logo.png"
-            alt="i77pass.com"
+            alt="i77pass.com logo, Interstate 77 Fancy Gap road conditions and live webcams"
             width={676}
             height={369}
             priority
@@ -57,7 +57,7 @@ function HeaderContent() {
             <Link href="/live-feed" className={`${isActive('/live-feed') ? 'text-primary font-bold' : 'hover:opacity-80 transition-opacity'}`}>Cameras</Link>
             <Link href="/mount-airy-to-hillsville" className={`${isActive('/mount-airy-to-hillsville') ? 'text-primary font-bold' : 'hover:opacity-80 transition-opacity'}`}>Routes</Link>
             <Link href="/alerts" className={`${isActive('/alerts') ? 'text-primary font-bold' : 'hover:opacity-80 transition-opacity'}`}>Alerts</Link>
-            <Link href="/restrictions" className={`${isActive('/restrictions') ? 'text-primary font-bold' : 'hover:opacity-80 transition-opacity'}`}>Restrictions</Link>
+            <Link href="/chains" className={`${isActive('/chains') ? 'text-primary font-bold' : 'hover:opacity-80 transition-opacity'}`}>Chain Control</Link>
             <Link href="/shutdown" className={`${isActive('/shutdown') ? 'text-primary font-bold' : 'hover:opacity-80 transition-opacity'}`}>Shutdown</Link>
             <Link href="/about" className={`${isActive('/about') ? 'text-primary font-bold' : 'hover:opacity-80 transition-opacity'}`}>About Us</Link>
           </nav>
