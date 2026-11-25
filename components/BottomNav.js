@@ -3,12 +3,10 @@
 // Mobile bottom navigation, the i80pass master's exact component:
 // same bar markup, same items, same icon names (home,
 // camera_outdoor, notifications, lock), same active treatment.
-// NAMED EXCEPTION, logged in BUILD-LOG.md: the fourth item leads
-// to /restrictions and is labeled "Restrictions" instead of
-// the master's "Chain Control" at /chains, because this corridor
-// has no chain control system and labeling the item Chain Control
-// would be a false claim about the road. The icon (lock) is
-// unchanged and is in the subset font, as are all four icon names.
+// The fourth item is the master's "Chain Control" at /chains.
+// The /chains page itself carries Virginia's honest position:
+// the state runs no chain control program, and the page reports
+// the restrictions and advisories VDOT posts instead.
 
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
@@ -36,9 +34,9 @@ function BottomNavContent() {
         <span className="material-symbols-outlined" style={isActive('/alerts') ? {fontVariationSettings: "'FILL' 1"} : {}}>notifications</span>
         <span className="text-label-sm mt-1">Alerts</span>
       </Link>
-      <Link href={`/restrictions${regionParam}`} className={`flex flex-col items-center justify-center ${isActive('/restrictions') ? 'text-primary font-bold scale-110' : 'text-secondary opacity-70'}`}>
-        <span className="material-symbols-outlined" style={isActive('/restrictions') ? {fontVariationSettings: "'FILL' 1"} : {}}>lock</span>
-        <span className="text-label-sm mt-1">Restrictions</span>
+      <Link href={`/chains${regionParam}`} className={`flex flex-col items-center justify-center ${isActive('/chains') ? 'text-primary font-bold scale-110' : 'text-secondary opacity-70'}`}>
+        <span className="material-symbols-outlined" style={isActive('/chains') ? {fontVariationSettings: "'FILL' 1"} : {}}>lock</span>
+        <span className="text-label-sm mt-1">Chain Control</span>
       </Link>
     </nav>
   );
