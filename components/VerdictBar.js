@@ -39,7 +39,7 @@ export default function VerdictBar({ seg, fetchedAt, label }) {
         <I77Shield />
         <div>
           <p className="text-3xl md:text-4xl font-black text-white leading-tight">{seg.statusWord}</p>
-          <p className="text-white/80 font-semibold text-sm mt-1">{seg.statusLine}</p>
+          <p className="speakable-status text-white/80 font-semibold text-sm mt-1">{seg.statusLine}</p>
         </div>
       </div>
       <p className="text-[11px] text-secondary mt-2 font-mono uppercase tracking-wide">
