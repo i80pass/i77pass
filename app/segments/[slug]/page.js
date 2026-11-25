@@ -1,11 +1,12 @@
 // One page per I-77 segment, each its own mini site in the
-// master's corridor page pattern: H1, status banner (the verdict
-// box) first, the answer first status sentence, the segment's
-// cameras under the camera count rule, checkpoints and junctions,
-// state feed events, weather stations when the feed carries them,
-// original editorial sections, neighbouring segment rows, storm
-// alerts, and FAQs with FAQPage schema. dynamicParams is false:
-// an unknown segment slug is a real 404.
+// master's corridor page pattern, in the master's block order:
+// H1, the verdict box, the answer first status sentence, the
+// segment's cameras under the camera count rule, the corridor
+// status list with this segment's events folded into it, the
+// Road Conditions checker, the weather block, storm alerts,
+// original editorial sections, checkpoints and junctions, and
+// FAQs with FAQPage schema. dynamicParams is false: an unknown
+// segment slug is a real 404.
 
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -13,15 +14,15 @@ import VerdictBar from "@/components/VerdictBar";
 import SegmentRow from "@/components/SegmentRow";
 import EventsList from "@/components/EventsList";
 import CameraStrip from "@/components/CameraStrip";
-import WeatherStrip from "@/components/WeatherStrip";
+import RoadConditionsCheck from "@/components/RoadConditionsCheck";
+import WeatherBlock from "@/components/WeatherBlock";
 import FaqBlock from "@/components/FaqBlock";
 import StormAlerts from "@/components/StormAlerts";
 import AdSlot from "@/components/AdSlot";
 import JsonLd from "@/components/JsonLd";
 import { getCorridor } from "@/lib/feeds";
-import { getPointWeather } from "@/lib/weather";
+import { getBlockWeather } from "@/lib/weather";
 import { SEGMENTS, getSegment } from "@/lib/segments";
-import { TOWNS } from "@/lib/towns";
 import { camerasForSegment } from "@/lib/cameras";
 import { liveStatusSentence } from "@/lib/verdict";
 import { webPageSchema, faqSchema, roadConditionSchema, cameraListSchema, breadcrumbSchema, placeSchema } from "@/lib/schema";
@@ -54,6 +55,16 @@ const MIDPOINTS = {
   3: [36.72, -80.75],
 };
 
+// The corridor weather points for the master weather block, with
+// the segment's own town preselected in the switcher.
+const WEATHER_POINTS = [
+  { name: "Mount Airy", slug: "mount-airy", lat: 36.4995, lon: -80.6073 },
+  { name: "Cana", slug: "cana", lat: 36.5833, lon: -80.6681 },
+  { name: "Fancy Gap", slug: "fancy-gap", lat: 36.6681, lon: -80.7017 },
+  { name: "Hillsville", slug: "hillsville", lat: 36.7622, lon: -80.7345 },
+];
+const SEGMENT_TOWN = { 1: "cana", 2: "fancy-gap", 3: "hillsville" };
+
 export default async function SegmentPage({ params }) {
   const { slug } = await params;
   const meta = getSegment(slug);
@@ -63,13 +74,9 @@ export default async function SegmentPage({ params }) {
   const seg = corridor.segments[meta.key];
   const sentence = liveStatusSentence(seg);
   const cameras = camerasForSegment(meta.key);
-  const towns = TOWNS.filter((t) => meta.towns.includes(t.name));
-  const weather = towns.length
-    ? await getPointWeather(towns.map((t) => ({ name: t.name, slug: t.slug, lat: t.lat, lon: t.lon })))
-    : [];
+  const weather = await getBlockWeather(WEATHER_POINTS);
   const stations = corridor.stations.filter((s) => s.segmentKey === meta.key);
-  const prev = SEGMENTS.find((s) => s.key === meta.key - 1);
-  const next = SEGMENTS.find((s) => s.key === meta.key + 1);
+  const allSegments = SEGMENTS.map((s) => corridor.segments[s.key]);
   const faqs = meta.faqs.map((f, i) =>
     i === 0 ? { q: f.q, a: `${sentence} ${f.a}` } : f
   );
@@ -108,38 +115,36 @@ export default async function SegmentPage({ params }) {
             ? `${cameras.length} VDOT ${cameras.length === 1 ? "camera" : "cameras"} on this segment, in driving order. Still images from 511 Virginia.`
             : undefined
         }
-        seeAllHref={`/segments/${meta.slug}/cameras`}
+        seeAllHref="/cameras"
         emptyText="No cameras are listed on this segment yet. The camera inventory for this corridor is pulled from the 511 Virginia registry. This page will never dress up another segment's camera as one of its own."
       />
 
       <AdSlot slot="belowCameras" />
 
-      <section aria-label="Checkpoints and junctions" className="mt-10">
-        <h2 className="text-headline-sm text-on-surface mb-3">Checkpoints and junctions</h2>
+      <section aria-label="Segment status" className="mt-10">
+        <h2 className="text-headline-sm text-on-surface mb-3">I-77 segment by segment</h2>
         <div className="space-y-3">
-          {meta.junctions.map((j) => (
-            <div key={j.label} className="rounded-2xl border border-outline-variant/40 bg-white p-4 flex gap-4">
-              <span className="shrink-0 px-2.5 py-1 h-fit rounded-full bg-primary text-white text-xs font-black">MP {j.mp}</span>
-              <span>
-                <span className="block font-bold text-on-surface">{j.label}</span>
-                <span className="block text-sm text-secondary mt-0.5">{j.note}</span>
-              </span>
-            </div>
+          {allSegments.map((s) => (
+            <SegmentRow key={s.key} seg={s} />
           ))}
         </div>
+        <div className="mt-4">
+          <EventsList
+            events={seg.events}
+            emptyText={
+              seg.ok
+                ? `VDOT posts no events on the ${meta.name} segment right now.`
+                : "No VDOT events can be shown right now, because the live feed for this segment is not answering. Nothing is posted here in the meantime."
+            }
+          />
+        </div>
+        <p className="text-sm text-secondary mt-3">
+          Driving the whole route? See the{" "}
+          <Link href="/mount-airy-to-hillsville" className="text-primary font-semibold hover:underline">Mount Airy to Hillsville route page</Link>.
+        </p>
       </section>
 
-      <section aria-label="State feed events on this segment" className="mt-10">
-        <h2 className="text-headline-sm text-on-surface mb-3">Events on this segment</h2>
-        <EventsList
-          events={seg.events}
-          emptyText={
-            seg.ok
-              ? `VDOT posts no events on this segment right now.`
-              : "No VDOT events can be shown right now, because the live feed for this segment is not answering. Nothing is posted here in the meantime."
-          }
-        />
-      </section>
+      <RoadConditionsCheck corridor={corridor} />
 
       {stations.length > 0 && (
         <section aria-label="Road weather stations" className="mt-10">
@@ -160,7 +165,7 @@ export default async function SegmentPage({ params }) {
         </section>
       )}
 
-      {weather.length > 0 && <WeatherStrip points={weather} heading={`Weather on this segment`} />}
+      <WeatherBlock towns={weather} initialSlug={SEGMENT_TOWN[meta.key]} />
 
       <div className="mt-10">
         <StormAlerts />
@@ -175,19 +180,20 @@ export default async function SegmentPage({ params }) {
         ))}
       </section>
 
-      {(prev || next) && (
-        <section aria-label="Neighbouring segments" className="mt-10">
-          <h2 className="text-headline-sm text-on-surface mb-3">The rest of the drive</h2>
-          <div className="space-y-3">
-            {prev && <SegmentRow seg={corridor.segments[prev.key]} />}
-            {next && <SegmentRow seg={corridor.segments[next.key]} />}
-          </div>
-          <p className="text-sm text-secondary mt-3">
-            Driving the whole route? See the{" "}
-            <Link href="/mount-airy-to-hillsville" className="text-primary font-semibold hover:underline">Mount Airy to Hillsville route page</Link>.
-          </p>
-        </section>
-      )}
+      <section aria-label="Checkpoints and junctions" className="mt-10">
+        <h2 className="text-headline-sm text-on-surface mb-3">Checkpoints and junctions</h2>
+        <div className="space-y-3">
+          {meta.junctions.map((j) => (
+            <div key={j.label} className="rounded-2xl border border-outline-variant/40 bg-white p-4 flex gap-4">
+              <span className="shrink-0 px-2.5 py-1 h-fit rounded-full bg-primary text-white text-xs font-black">MP {j.mp}</span>
+              <span>
+                <span className="block font-bold text-on-surface">{j.label}</span>
+                <span className="block text-sm text-secondary mt-0.5">{j.note}</span>
+              </span>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <FaqBlock faqs={faqs} />
 
