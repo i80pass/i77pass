@@ -2,7 +2,7 @@
 // page that emits faqSchema renders this block with the same
 // questions and answers.
 
-export default function FaqBlock({ faqs, heading = "Frequently asked questions" }) {
+export default function FaqBlock({ faqs, heading = "Questions drivers ask" }) {
   if (!faqs?.length) return null;
   return (
     <section aria-label={heading} className="mt-12">
