@@ -28,7 +28,6 @@ export default function CameraStrip({ cameras, heading, sub, seeAllHref, emptyTe
       <div className="flex items-end justify-between gap-3 mb-3">
         <div>
           <h2 className="text-headline-sm text-on-surface">{heading}</h2>
-          {sub && <p className="text-sm text-secondary mt-1">{sub}</p>}
         </div>
         <Link href={seeAllHref || "/cameras"} className="shrink-0 text-sm font-semibold text-primary hover:underline">
           All cameras
@@ -48,6 +47,11 @@ export default function CameraStrip({ cameras, heading, sub, seeAllHref, emptyTe
           SEE ALL WEBCAMS
         </Link>
       )}
+      {/* The descriptive line renders below the cameras, never
+          between the verdict bar and the first camera: in the
+          hero span the master carries only the strip heading and
+          the See all link above the first image. */}
+      {sub && <p className="text-sm text-secondary mt-3">{sub}</p>}
     </section>
   );
 }
