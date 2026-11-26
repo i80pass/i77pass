@@ -16,7 +16,7 @@ import { corridorStatusSentence } from "@/lib/verdict";
 import { webPageSchema, cameraListSchema, breadcrumbSchema } from "@/lib/schema";
 import { SITE, siteUrl } from "@/lib/site-config";
 
-export const revalidate = 300;
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "I-77 Cameras and Webcams Live: Fancy Gap, Virginia | i77pass.com",
