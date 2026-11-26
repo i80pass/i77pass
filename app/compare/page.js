@@ -15,8 +15,7 @@ import { corridorStatusSentence } from "@/lib/verdict";
 import { webPageSchema, faqSchema, roadConditionSchema, breadcrumbSchema } from "@/lib/schema";
 import { siteUrl } from "@/lib/site-config";
 
-export const revalidate = 60;
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "I-77 Segments Compared: Fancy Gap Side by Side | i77pass.com",
   description:
