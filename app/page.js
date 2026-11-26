@@ -32,8 +32,7 @@ import { corridorStatusSentence } from "@/lib/verdict";
 import { webPageSchema, webSiteSchema, organizationSchema, faqSchema, roadConditionSchema, cameraListSchema, breadcrumbSchema } from "@/lib/schema";
 import { SITE, siteUrl } from "@/lib/site-config";
 
-export const revalidate = 60;
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "I-77 Road Conditions Today: Fancy Gap, Virginia | i77pass.com",
   description:
