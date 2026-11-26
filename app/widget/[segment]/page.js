@@ -58,7 +58,13 @@ export default async function WidgetPage({ params }) {
         </div>
         <div className="p-4 flex items-center justify-between gap-3">
           <p className="text-xs text-secondary">
-            Mileposts {meta.mpFrom} to {meta.mpTo} · Updated {formatStamp(corridor.fetchedAt)} · VDOT via 511 Virginia
+            Mileposts {meta.mpFrom} to {meta.mpTo} ·{" "}
+            {seg.ok && seg.agencyAt
+              ? `VDOT report ${formatStamp(seg.agencyAt)} · Verified ${formatStamp(corridor.fetchedAt)}`
+              : seg.ok
+                ? `Verified ${formatStamp(corridor.fetchedAt)}`
+                : `Checked ${formatStamp(corridor.fetchedAt)} · No live status`}{" "}
+            · VDOT via 511 Virginia
           </p>
           <a
             href={target}
