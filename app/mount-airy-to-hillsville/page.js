@@ -20,8 +20,7 @@ import { corridorStatusSentence } from "@/lib/verdict";
 import { webPageSchema, faqSchema, roadConditionSchema, breadcrumbSchema } from "@/lib/schema";
 import { SITE, siteUrl } from "@/lib/site-config";
 
-export const revalidate = 60;
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Mount Airy to Hillsville Drive: I-77 Conditions, Cameras, and Time | i77pass.com",
   description:
