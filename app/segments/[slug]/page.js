@@ -29,7 +29,7 @@ import { liveStatusSentence } from "@/lib/verdict";
 import { webPageSchema, faqSchema, roadConditionSchema, cameraListSchema, breadcrumbSchema, placeSchema } from "@/lib/schema";
 import { SITE, siteUrl } from "@/lib/site-config";
 
-export const revalidate = 60;
+export const dynamic = "force-dynamic";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
