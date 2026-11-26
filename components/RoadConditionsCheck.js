@@ -89,7 +89,10 @@ export default function RoadConditionsCheck({ corridor }) {
         <HighwayCheckForm />
       </div>
       <p className="text-[11px] text-secondary font-mono uppercase tracking-wide mb-3">
-        This highway information is the latest reported as of {reportStamp(corridor?.fetchedAt || new Date())}.
+        This highway information was last verified here as of {reportStamp(corridor?.fetchedAt || new Date())}.
+        {corridor?.agencyAt
+          ? ` The newest VDOT event report on the corridor is dated ${reportStamp(new Date(corridor.agencyAt))}.`
+          : ""}
       </p>
       <div className="flex flex-col gap-3">
         {cards.map((c) => (
