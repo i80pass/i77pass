@@ -21,8 +21,7 @@ import { corridorStatusSentence } from "@/lib/verdict";
 import { webPageSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
 import { siteUrl } from "@/lib/site-config";
 
-export const revalidate = 120;
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "I-77 Restrictions and Winter Traction: Fancy Gap, Virginia | i77pass.com",
   description:
