@@ -20,8 +20,7 @@ import { corridorStatusSentence } from "@/lib/verdict";
 import { webPageSchema, faqSchema, breadcrumbSchema, roadConditionSchema } from "@/lib/schema";
 import { siteUrl } from "@/lib/site-config";
 
-export const revalidate = 60;
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Chains Required on I-77? I-77 Chain Control Today | i77pass.com",
   description:
