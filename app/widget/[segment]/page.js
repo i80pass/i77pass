@@ -13,7 +13,7 @@ import { SEGMENTS, getSegment } from "@/lib/segments";
 import { formatStamp } from "@/lib/verdict";
 import { SITE } from "@/lib/site-config";
 
-export const revalidate = 120;
+export const dynamic = "force-dynamic";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
