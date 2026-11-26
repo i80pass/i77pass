@@ -43,7 +43,12 @@ export default function VerdictBar({ seg, fetchedAt, label }) {
         </div>
       </div>
       <p className="text-[11px] text-secondary mt-2 font-mono uppercase tracking-wide">
-        Last updated at: {formatStamp(fetchedAt || new Date())} · VDOT via 511 Virginia
+        {seg.ok && seg.agencyAt
+          ? `VDOT report updated ${formatStamp(seg.agencyAt)} · Verified here ${formatStamp(fetchedAt || new Date())}`
+          : seg.ok
+            ? `VDOT feed checked here ${formatStamp(fetchedAt || new Date())}`
+            : `Feed checked here ${formatStamp(fetchedAt || new Date())} · No live status shown`}{" "}
+        · VDOT via 511 Virginia
       </p>
     </section>
   );
