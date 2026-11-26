@@ -18,8 +18,7 @@ import { corridorStatusSentence } from "@/lib/verdict";
 import { webPageSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
 import { siteUrl } from "@/lib/site-config";
 
-export const revalidate = 60;
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "I-77 Shutdown Today: Is I-77 Closed at Fancy Gap? | i77pass.com",
   description:
