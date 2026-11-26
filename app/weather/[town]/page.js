@@ -17,7 +17,7 @@ import { getSegment } from "@/lib/segments";
 import { webPageSchema, faqSchema, breadcrumbSchema, placeSchema } from "@/lib/schema";
 import { siteUrl } from "@/lib/site-config";
 
-export const revalidate = 120;
+export const dynamic = "force-dynamic";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
