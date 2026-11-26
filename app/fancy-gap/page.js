@@ -23,8 +23,7 @@ import { liveStatusSentence } from "@/lib/verdict";
 import { webPageSchema, faqSchema, roadConditionSchema, cameraListSchema, breadcrumbSchema, placeSchema } from "@/lib/schema";
 import { SITE, siteUrl } from "@/lib/site-config";
 
-export const revalidate = 60;
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Fancy Gap Road Conditions: I-77 Fog, Closures, and Cameras | i77pass.com",
   description:
